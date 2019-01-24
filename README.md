@@ -20,6 +20,10 @@ Habilitar modo desenvolvedor,
 4. Permitir instalação de app de fontes desconhecidas
  
 ## Utilização
+1. Com o celular conectado ao computador, execute o comando python zapzap_exporter.py --install (instala o aplicativo de backup por email e apk de automatização)
+2. Exporte a primeira conversa manualmente para o cartão de memória utilizando o cliente de email app-debug.apk
+3. Retorne a tela de listagem de conversas do aplicativo whatsapp
+4. Execute o comando python zapzap_exporter.py 
 
 ```
 usage: python zapzap_exporter.py [-h] [--install | --uninstall | --info] [--debug]
