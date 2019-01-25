@@ -25,6 +25,9 @@ Habilitar modo desenvolvedor,
 3. Retorne a tela de listagem de conversas do aplicativo whatsapp
 4. Execute o comando python zapzap_exporter.py 
 
+* Se ocorrer algum problema na navegação, você pode reiniciar o script que ele continua do ponto (conversa) que parou
+* Configure o horário do celular para 24h (não AM/PM) para importar para cellebrite PA adequadamente
+
 ```
 usage: python zapzap_exporter.py [-h] [--install | --uninstall | --info] [--debug]
 
